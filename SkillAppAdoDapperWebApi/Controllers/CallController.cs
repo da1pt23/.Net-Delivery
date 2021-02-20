@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SkillManagement.DataAccess.Entities.SQLEntities;
-using SkillManagement.DataAccess.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using CallManagement.DataAccess.Interfaces;
+using DeliveryManagement.DataAccess.Entities.SQLEntities;
+using Microsoft.AspNetCore.Mvc;
 
-namespace SkillManagement.WebAPI.Controllers
+namespace DeliveryAppAdoDapperWebApi.WEBAPI.Controllers
 {
     public class CallController : ControllerBase
     {

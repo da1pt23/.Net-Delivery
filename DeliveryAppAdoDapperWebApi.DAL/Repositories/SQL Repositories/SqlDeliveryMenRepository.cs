@@ -1,0 +1,18 @@
+﻿using Microsoft.Extensions.Configuration;
+using System.Configuration;
+using DeliveryManagement.DataAccess.Core;
+using DeliveryManagement.DataAccess.Entities.SQLEntities;
+using DeliveryManagement.DataAccess.Interfaces;
+using DeliveryManagement.DataAccess.Interfaces.SQLInterfaces.ISQLRepositories;
+
+namespace DeliveryManagement.DataAccess.Repositories
+{
+    public class SqlDeliveryMenRepository : GenericRepository<SqlDeliveryMen, long>, ISqlDeliveryMenRepository
+    {
+        public SqlDeliveryMenRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, "deliverymen", false)
+        {
+            var connectionString = config.GetConnectionString("DefaultConnection");
+            connectionFactory.SetConnection(connectionString);
+        }
+    }
+}

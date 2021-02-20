@@ -13,17 +13,17 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using SkillAppAdoDapperWebApi.DAL.Interfaces.SQLInterfaces.ISQLRepositories;
-using SkillManagement.DataAccess.Entities.SQLEntities;
-using SkillManagement.DataAccess.Infrastructure;
-using SkillManagement.DataAccess.Interfaces;
-using SkillManagement.DataAccess.Interfaces.SQLInterfaces.ISQLRepositories;
-using SkillManagement.DataAccess.Interfaces.SQLInterfaces.ISQLServices;
-using SkillManagement.DataAccess.Repositories;
-using SkillManagement.DataAccess.Repositories.SQL_Repositories;
-using SkillManagement.DataAccess.Services;
-using SkillManagement.DataAccess.Services.SQL_Services;
-using SkillManagement.DataAccess.sqlunitOfWork;
+using DeliveryAppAdoDapperWebApi.DAL.Interfaces.SQLInterfaces.ISQLRepositories;
+using DeliveryManagement.DataAccess.Entities.SQLEntities;
+using DeliveryManagement.DataAccess.Infrastructure;
+using DeliveryManagement.DataAccess.Interfaces;
+using DeliveryManagement.DataAccess.Interfaces.SQLInterfaces.ISQLRepositories;
+using DeliveryManagement.DataAccess.Interfaces.SQLInterfaces.ISQLServices;
+using DeliveryManagement.DataAccess.Repositories;
+using DeliveryManagement.DataAccess.Repositories.SQL_Repositories;
+using DeliveryManagement.DataAccess.Services;
+using DeliveryManagement.DataAccess.Services.SQL_Services;
+using DeliveryManagement.DataAccess.sqlunitOfWork;
 
 namespace DeliveryAppAdoDapperWebApi
 {

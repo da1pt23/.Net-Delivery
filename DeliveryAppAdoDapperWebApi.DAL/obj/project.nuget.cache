@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4WMPjqI8pcX9GpQYOFlVmYjApJjQJv2tvw6Bw+yj5bl/iGxvlcKi4sQ4RVwM+4+djxKjevXqPnQ5KRqK6nd7Q==",
+  "dgSpecHash": "5pDPv0hinZ4W/DoSCM8S6hjVtKXQKSiy20i7vpuIdMHyfpBFU23xPWjsazcFkF9gWL7rnWyni6rfYX3unAtwXw==",
   "success": true,
-  "projectFilePath": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
+  "projectFilePath": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",

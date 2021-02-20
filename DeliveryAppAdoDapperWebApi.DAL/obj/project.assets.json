@@ -272,22 +272,6 @@
             "rid": "win"
           }
         }
-      },
-      "DeliveryAppAdoDapperWebApi.DAL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Dapper": "2.0.30",
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "System.Configuration.ConfigurationManager": "4.7.0",
-          "System.Data.SqlClient": "4.8.1"
-        },
-        "compile": {
-          "bin/placeholder/DeliveryAppAdoDapperWebApi.DAL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DeliveryAppAdoDapperWebApi.DAL.dll": {}
-        }
       }
     }
   },
@@ -890,16 +874,14 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "DeliveryAppAdoDapperWebApi.DAL/1.0.0": {
-      "type": "project",
-      "path": "../DeliveryAppAdoDapperWebApi.DAL/DeliveryAppAdoDapperWebApi.DAL.csproj",
-      "msbuildProject": "../DeliveryAppAdoDapperWebApi.DAL/DeliveryAppAdoDapperWebApi.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DeliveryAppAdoDapperWebApi.DAL >= 1.0.0"
+      "Dapper >= 2.0.30",
+      "Microsoft.Extensions.Configuration.Abstractions >= 3.1.8",
+      "System.Configuration.ConfigurationManager >= 4.7.0",
+      "System.Data.SqlClient >= 4.8.1"
     ]
   },
   "packageFolders": {
@@ -909,11 +891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
-      "projectName": "DeliveryAppAdoDapperWebApi.WEBAPI",
-      "projectPath": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
+      "projectUniqueName": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj",
+      "projectName": "DeliveryAppAdoDapperWebApi.DAL",
+      "projectPath": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\obj\\",
+      "outputPath": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -929,11 +911,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj": {
-              "projectPath": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -944,6 +922,24 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.30, )"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.8, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -955,9 +951,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
