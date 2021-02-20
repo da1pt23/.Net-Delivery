@@ -1,0 +1,103 @@
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csprojAssemblyReference.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.exe
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.deps.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.dev.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CoreCompileInputs.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfoInputs.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfo.cs
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.RazorTargetAssemblyInfo.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CopyComplete
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.Manifest.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.xml
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.genruntimeconfig.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.exe
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.deps.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.dev.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csprojAssemblyReference.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfoInputs.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfo.cs
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CoreCompileInputs.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.RazorTargetAssemblyInfo.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CopyComplete
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.Manifest.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.xml
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.genruntimeconfig.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\SkillAppAdoDapperWebApi.WEBAPI.styles.css
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.exe
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.deps.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.runtimeconfig.dev.json
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csprojAssemblyReference.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfoInputs.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.AssemblyInfo.cs
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CoreCompileInputs.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.RazorTargetAssemblyInfo.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.csproj.CopyComplete
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.Manifest.cache
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\staticwebassets\SkillAppAdoDapperWebApi.WEBAPI.StaticWebAssets.xml
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.dll
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.pdb
+D:\CHNU\.NET\WDelivery\SkillAppAdoDapperWebApi\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.WEBAPI.genruntimeconfig.cache
