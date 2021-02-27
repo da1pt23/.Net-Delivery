@@ -14,12 +14,6 @@ namespace DeliveryAppAdoDapperWebApi.WEBAPI.Controllers
         #endregion
 
         #region Constructors
-
-        public CallController()
-        {
-
-        }
-
         public CallController(ISqlCallService callService)
         {
             _callService = callService;
@@ -30,6 +24,7 @@ namespace DeliveryAppAdoDapperWebApi.WEBAPI.Controllers
         [HttpGet]
         public IEnumerable<SqlCall> Get()
         {
+            
             return _callService.GetAllCalls();
         }
 

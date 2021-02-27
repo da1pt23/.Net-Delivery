@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
 using DeliveryManagement.DataAccess.Interfaces;
+using Npgsql;    
 
 namespace DeliveryManagement.DataAccess.Infrastructure
 {
@@ -24,16 +26,11 @@ namespace DeliveryManagement.DataAccess.Infrastructure
         {
             get
             {
-                SqlConnection connection;
+                NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1;User Id=postgres;" + 
+                                                             "Password=admin;Database=delivery;");
+                conn.Open();
 
-                if (!string.IsNullOrEmpty(_connectionString))
-                    connection = new SqlConnection(_connectionString);
-                else
-                    connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-
-                connection.Open();
-
-                return connection;
+                return conn;
             }
         }
     }

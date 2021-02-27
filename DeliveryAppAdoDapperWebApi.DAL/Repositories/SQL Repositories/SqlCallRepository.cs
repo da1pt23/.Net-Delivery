@@ -9,7 +9,7 @@ namespace DeliveryManagement.DataAccess.Repositories
 {
     public class SqlCallRepository : GenericRepository<SqlCall, long>, ISqlCallRepository
     {
-        public SqlCallRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, "call", false)
+        public SqlCallRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, "calls", false)
         {
             var connectionString = config.GetConnectionString("DefaultConnection");
             connectionFactory.SetConnection(connectionString);

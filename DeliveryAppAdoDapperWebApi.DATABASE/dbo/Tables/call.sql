@@ -1,4 +1,4 @@
-﻿create table call
+﻿create table calls
 (
     id serial not null
         constraint calls_pkey

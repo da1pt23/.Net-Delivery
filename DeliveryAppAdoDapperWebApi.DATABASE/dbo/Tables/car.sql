@@ -1,4 +1,4 @@
-﻿create table car
+﻿create table cars
 (
     id serial not null
         constraint cars_pkey

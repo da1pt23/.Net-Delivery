@@ -1,4 +1,4 @@
-﻿create table order
+﻿create table orders
 (
     id serial not null
         constraint orders_pkey

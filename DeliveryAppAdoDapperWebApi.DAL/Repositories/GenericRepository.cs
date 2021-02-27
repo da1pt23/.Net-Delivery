@@ -73,7 +73,7 @@ namespace DeliveryManagement.DataAccess.Core
 
                 using (var db = _connectionFactory.GetSqlConnection)
                 {
-                    var query = "SP_UnActivateRecordInTable";
+                    var query = "DELETE FROM " + _tableName + "WHERE id = " + entity.Id;
 
                     var UnActivateStatement = db.Query<string>(
                         sql: query,
@@ -94,7 +94,7 @@ namespace DeliveryManagement.DataAccess.Core
                     var result = db.Execute(
                         sql: query,
                         param: new { P_tableName = _tableName, P_Id = entity.Id },
-                        commandType: CommandType.StoredProcedure);
+                        commandType: CommandType.Text);
                 }
             }
         }
@@ -102,25 +102,25 @@ namespace DeliveryManagement.DataAccess.Core
         public TEntity Get(TId Id)
         {
 
-            var query = "SP_GetRecordByIdFromTable";
+            var query = "SELECT * FROM " + _tableName + "WHERE id = " + Id;
 
             using (var db = _connectionFactory.GetSqlConnection)
             {
                 return db.Query<TEntity>(query,
                     new { P_tableName = _tableName, P_Id = Id },
-                    commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    commandType: CommandType.Text).FirstOrDefault();
             }
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            var query = "SP_GetAllRecordsFromTable";
+            var query = "SELECT * FROM " + _tableName;
 
             using (var db = _connectionFactory.GetSqlConnection)
             {
                 return db.Query<TEntity>(query,
                     new { P_tableName = _tableName },
-                    commandType: CommandType.StoredProcedure);
+                    commandType: CommandType.Text);
             }
         }
 

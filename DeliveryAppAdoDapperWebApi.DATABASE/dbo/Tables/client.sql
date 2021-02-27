@@ -1,4 +1,4 @@
-﻿create table client
+﻿create table clients
 (
     id serial not null
         constraint clients_pkey

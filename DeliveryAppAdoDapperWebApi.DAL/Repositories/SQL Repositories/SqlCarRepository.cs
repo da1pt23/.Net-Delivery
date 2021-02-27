@@ -16,7 +16,7 @@ namespace DeliveryManagement.DataAccess.Repositories.SQL_Repositories
 {
     public class SqlCarRepository : GenericRepository<SqlCar, long>, ISqlCarRepository
     {
-        private static readonly string _tableName = "car";
+        private static readonly string _tableName = "cars";
         
         public SqlCarRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, _tableName, false)
         {

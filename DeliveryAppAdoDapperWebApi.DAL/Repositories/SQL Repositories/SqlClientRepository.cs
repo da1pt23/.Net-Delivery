@@ -10,7 +10,7 @@ namespace DeliveryManagement.DataAccess.Repositories
 {
     public class SqlClientRepository : GenericRepository<SqlClient, long>, ISqlClientRepository
     {
-        private static readonly string _tableName = "client";
+        private static readonly string _tableName = "clients";
         private static readonly bool _isSoftDelete = true;
         public SqlClientRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, _tableName, _isSoftDelete)
         {

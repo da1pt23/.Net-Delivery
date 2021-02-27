@@ -10,7 +10,7 @@ namespace DeliveryManagement.DataAccess.Repositories
 {
     public class SqlOrderRepository : GenericRepository<SqlOrder, long>, ISqlOrderRepository
     {
-        public SqlOrderRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, "order", false)
+        public SqlOrderRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, "orders", false)
         {
             var connectionString = config.GetConnectionString("DefaultConnection");
             connectionFactory.SetConnection(connectionString);
