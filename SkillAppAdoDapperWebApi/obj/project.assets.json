@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Dapper/2.0.30": {
+      "Dapper/2.0.78": {
         "type": "package",
         "dependencies": {
-          "System.Reflection.Emit.Lightweight": "4.6.0"
+          "System.Reflection.Emit.Lightweight": "4.7.0"
         },
         "compile": {
           "lib/netstandard2.0/Dapper.dll": {}
@@ -192,7 +192,7 @@
           }
         }
       },
-      "System.Reflection.Emit.Lightweight/4.6.0": {
+      "System.Reflection.Emit.Lightweight/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -298,7 +298,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Dapper": "2.0.30",
+          "Dapper": "2.0.78",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
           "Npgsql": "5.0.3",
           "System.Configuration.ConfigurationManager": "4.7.0",
@@ -314,17 +314,19 @@
     }
   },
   "libraries": {
-    "Dapper/2.0.30": {
-      "sha512": "nL0VEpvunjIQ3jTI1x27b7BS3BnRnn5b2vhxsU2pWEd9SljF5WUQLoV/83qXTm0yaHmejRV/ndI3EApGlrgPqw==",
+    "Dapper/2.0.78": {
+      "sha512": "vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
       "type": "package",
-      "path": "dapper/2.0.30",
+      "path": "dapper/2.0.78",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dapper.2.0.30.nupkg.sha512",
+        "dapper.2.0.78.nupkg.sha512",
         "dapper.nuspec",
         "lib/net461/Dapper.dll",
         "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
       ]
@@ -682,10 +684,10 @@
         "version.txt"
       ]
     },
-    "System.Reflection.Emit.Lightweight/4.6.0": {
-      "sha512": "j/V5HVvxvBQ7uubYD0PptQW2KGsi1Pc2kZ9yfwLixv3ADdjL/4M78KyC5e+ymW612DY8ZE4PFoZmWpoNmN2mqg==",
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
       "type": "package",
-      "path": "system.reflection.emit.lightweight/4.6.0",
+      "path": "system.reflection.emit.lightweight/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -734,7 +736,7 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
         "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
-        "system.reflection.emit.lightweight.4.6.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
         "system.reflection.emit.lightweight.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -966,27 +968,24 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Dapper >= 2.0.78",
       "DeliveryAppAdoDapperWebApi.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\SerhiiKachmarskyi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
+      "projectUniqueName": "C:\\Personal\\.NET\\Delivery\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
       "projectName": "DeliveryAppAdoDapperWebApi.WEBAPI",
-      "projectPath": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\CHNU\\.NET\\WDelivery\\SkillAppAdoDapperWebApi\\obj\\",
+      "projectPath": "C:\\Personal\\.NET\\Delivery\\WDelivery\\SkillAppAdoDapperWebApi\\DeliveryAppAdoDapperWebApi.WEBAPI.csproj",
+      "packagesPath": "C:\\Users\\SerhiiKachmarskyi\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\.NET\\Delivery\\WDelivery\\SkillAppAdoDapperWebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SerhiiKachmarskyi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -996,9 +995,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj": {
-              "projectPath": "D:\\CHNU\\.NET\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj"
+            "C:\\Personal\\.NET\\Delivery\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj": {
+              "projectPath": "C:\\Personal\\.NET\\Delivery\\WDelivery\\DeliveryAppAdoDapperWebApi.DAL\\DeliveryAppAdoDapperWebApi.DAL.csproj"
             }
           }
         }
@@ -1011,6 +1011,13 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.78, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -1029,7 +1036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

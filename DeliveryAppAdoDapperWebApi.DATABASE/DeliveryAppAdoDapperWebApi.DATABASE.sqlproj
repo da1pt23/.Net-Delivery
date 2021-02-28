@@ -11,7 +11,7 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>SkillAppAdoDapperWebApi.DATABASE</RootNamespace>
+    <RootNamespace>DeliveryAppAdoDapperWebApi.DATABASE</RootNamespace>
     <AssemblyName>DeliveryAppAdoDapperWebApi.DATABASE</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>

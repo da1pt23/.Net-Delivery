@@ -4,6 +4,7 @@ using DeliveryManagement.DataAccess.Core;
 using DeliveryManagement.DataAccess.Entities.SQLEntities;
 using DeliveryManagement.DataAccess.Interfaces;
 using DeliveryManagement.DataAccess.Interfaces.SQLInterfaces.ISQLRepositories;
+using SkillManagement.DataAccess.Core;
 
 namespace DeliveryManagement.DataAccess.Repositories
 {

@@ -1,11 +1,11 @@
 ﻿using Dapper;
+using DeliveryManagement.DataAccess.Interfaces;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
-using DeliveryManagement.DataAccess.Interfaces;
 
-namespace DeliveryManagement.DataAccess.Core
+namespace SkillManagement.DataAccess.Core
 {
     public class GenericRepository<TEntity, TId> : IGenericRepository<TEntity, TId> where TEntity : IEntity<TId>
     {
@@ -73,7 +73,7 @@ namespace DeliveryManagement.DataAccess.Core
 
                 using (var db = _connectionFactory.GetSqlConnection)
                 {
-                    var query = "DELETE FROM " + _tableName + "WHERE id = " + entity.Id;
+                    var query = "SP_UnActivateRecordInTable";
 
                     var UnActivateStatement = db.Query<string>(
                         sql: query,
@@ -94,7 +94,7 @@ namespace DeliveryManagement.DataAccess.Core
                     var result = db.Execute(
                         sql: query,
                         param: new { P_tableName = _tableName, P_Id = entity.Id },
-                        commandType: CommandType.Text);
+                        commandType: CommandType.StoredProcedure);
                 }
             }
         }
@@ -102,25 +102,25 @@ namespace DeliveryManagement.DataAccess.Core
         public TEntity Get(TId Id)
         {
 
-            var query = "SELECT * FROM " + _tableName + "WHERE id = " + Id;
+            var query = "SP_GetRecordByIdFromTable";
 
             using (var db = _connectionFactory.GetSqlConnection)
             {
                 return db.Query<TEntity>(query,
                     new { P_tableName = _tableName, P_Id = Id },
-                    commandType: CommandType.Text).FirstOrDefault();
+                    commandType: CommandType.StoredProcedure).FirstOrDefault();
             }
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            var query = "SELECT * FROM " + _tableName;
+            var query = "SP_GetAllRecordsFromTable";
 
             using (var db = _connectionFactory.GetSqlConnection)
             {
                 return db.Query<TEntity>(query,
                     new { P_tableName = _tableName },
-                    commandType: CommandType.Text);
+                    commandType: CommandType.StoredProcedure);
             }
         }
 
