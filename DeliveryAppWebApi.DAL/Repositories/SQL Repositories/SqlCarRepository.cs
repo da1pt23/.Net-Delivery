@@ -15,14 +15,22 @@ using Delivery.DataAccess.Core;
 
 namespace DeliveryManagement.DataAccess.Repositories.SQL_Repositories
 {
-    public class SqlCarRepository : GenericRepository<SqlCar, long>, ISqlCarRepository
+    public class SqlCarRepository : GenericRepository<SqlCar>, ISqlCarRepository
     {
-        private static readonly string _tableName = "cars";
-        
-        public SqlCarRepository(IConnectionFactory connectionFactory, IConfiguration config) : base(connectionFactory, _tableName, false)
+        public SqlCarRepository(ApplicationContext applicationContext) : base (applicationContext) {
+            
+        }
+
+        public SqlCar GetById(long id)
         {
-            var connectionString = config.GetConnectionString("DefaultConnection");
-            connectionFactory.SetConnection(connectionString);
+                var car = _context.Cars
+                    .Single(b => b.Id == id);
+
+                _context.Entry(car)
+                    .Reference(car => car.Deliveryman)
+                    .Load();
+
+                return car;
         }
     }
 }

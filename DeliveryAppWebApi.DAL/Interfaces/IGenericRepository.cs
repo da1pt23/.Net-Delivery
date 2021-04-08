@@ -2,16 +2,13 @@
 
 namespace DeliveryManagement.DataAccess.Interfaces
 {
-    public interface IGenericRepository<TEntity, TId> where TEntity : IEntity<TId>
+    public interface IGenericRepository<T> where T : class
     {
-        IEnumerable<TEntity> GetAll();
-
-        TEntity Get(TId Id);
-        
-        long Add(TEntity entity);
-
-        void Update(TEntity entity);
-
-        void Delete(TEntity entity);
+        IEnumerable<T> GetAll();
+        T GetById(object id);
+        void Insert(T obj);
+        void Update(T obj);
+        void Delete(object id);
+        void Save();
     }
 }
